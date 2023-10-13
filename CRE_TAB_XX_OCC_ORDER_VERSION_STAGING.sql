@@ -1,5 +1,6 @@
 connect $XXO_CONNECT
 
+set echo on
 set feedback on
 
 CREATE TABLE "XXO"."XX_OCC_ORDER_VERSION_STAGING" 
