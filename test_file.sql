@@ -3,11 +3,11 @@ declare
 v_text varchar2(2000);
 v_text1 varchar2(2000);
 begin
+   v_text := 'This is the test file';
 
-   v_text := 'This is a test script for GITHub Traning';
-   Dbms_output.put_line(v_text);
+   Dbms_output.put_line('v_text'||' '||v_text);
 
-   
+  
 end;
 
 
